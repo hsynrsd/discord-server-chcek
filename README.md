@@ -26,7 +26,7 @@ guild_id = 123456789012345678
 3. Run it
 
 ```bash
-python snowflake_date.py
+python app.py
 ```
 
 4. Get the creation date in UTC:
