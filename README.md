@@ -1,3 +1,8 @@
+Sure thing! Here’s a clean and straight-to-the-point `README.md` that fits the vibe:
+
+---
+
+```markdown
 # Discord Server Creation Date Checker 🔍
 
 Ever got kicked from a server and wondered *"When was that server even created?"*  
@@ -21,3 +26,37 @@ This script decodes that timestamp and tells you **exactly when the server (or w
 guild_id = "insert id here"
 # With your actual ID:
 guild_id = 123456789012345678
+```
+
+3. Run it:
+
+```bash
+python snowflake_date.py
+```
+
+4. Get the creation date in UTC.
+
+## 🧪 Example Output
+
+```
+ID 123456789012345678 was created on 2017-05-14 18:27:36.123000 UTC
+```
+
+## 📦 Requirements
+
+Just Python. No installs, no dependencies.  
+It’s that lightweight.
+
+## ⚠️ Disclaimer
+
+This won’t work if you enter a fake or random ID.  
+Discord snowflakes are structured — you need a **real** one for it to spit out a valid date.
+
+---
+
+Made for curious Discord users and those kicked from servers who just *need to know*.
+```
+
+---
+
+Let me know if you want a CLI tool or web version too.
